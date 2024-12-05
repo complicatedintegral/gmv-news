@@ -21,30 +21,17 @@ gtts (for text-to-speech conversion)
 rake_nltk (for keyword extraction)
 beautifulsoup4 (for web scraping)
 requests-html (for making HTTP requests)
+
 You can install the required packages using pip:
-
-bash
-
-Verify
-
-Open In Editor
-Edit
-Copy code
 pip install Pillow pymysql googletrans gtts rake-nltk beautifulsoup4 requests-html
+
 Database Setup
 The application uses a MySQL database to store user credentials. You need to create a database named details and a table named up with the following structure:
-
-sql
-
-Verify
-
-Open In Editor
-Edit
-Copy code
 CREATE TABLE up (
     username VARCHAR(255) NOT NULL,
     password VARCHAR(255) NOT NULL
 );
+
 Usage
 Run the Application: Execute the Python script to launch the application.
 Register: Click on the "Register" button to create a new account. Enter a username and password, then click "Submit".
